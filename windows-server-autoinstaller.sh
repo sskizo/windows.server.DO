@@ -8,7 +8,7 @@ display_menu() {
     echo "3. Windows Server 2022"
     echo "4. Windows 10"
     echo "5. Windows 11"
-    echo "6. Windows 1021h2"
+    echo "6. Windows Server 2025"
     read -p "Enter your choice: " choice
 }
 
@@ -59,7 +59,7 @@ case $choice in
         iso_file="windows11.iso"
         ;;
     6)
-        # Windows 2025
+        # Windows Server 2025
         img_file="windows2025.img"
         iso_link="https://ia800104.us.archive.org/31/items/windows-server-2025-datacenter-eval-en-us-240331-1435-virtio/Windows_Server_2025_Datacenter_EVAL_en-us_240331-1435_virtio.iso"
         iso_file="windows2025.iso"
