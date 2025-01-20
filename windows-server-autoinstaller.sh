@@ -49,7 +49,7 @@ case $choice in
     4)
         # Windows 10
         img_file="windows10.img"
-        iso_link="https://ia800603.us.archive.org/17/items/windows-10-21-h-2-enterprise-ltsc/Windows_10_21H2_Enterprise_LTSC.iso"
+        iso_link="https://software-static.download.prss.microsoft.com/dbazure/988969d5-f34g-4e03-ac9d-1f9786c66750/19045.2006.220908-0225.22h2_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso"
         iso_file="windows10.iso"
         ;;
     5)
