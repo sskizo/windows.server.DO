@@ -55,7 +55,7 @@ case $choice in
     5)
         # Windows 11
         img_file="windows11.img"
-        iso_link="https://ia904603.us.archive.org/25/items/windows.-11.-io-t.-enterprise.-ltsc.-2024.-evaluation-virtio/Windows.11.IoT.Enterprise.LTSC.2024.Evaluation_Virtio.iso"
+        iso_link="https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/26100.1.240331-1435.ge_release_CLIENT_IOT_LTSC_EVAL_x64FRE_en-us.iso"
         iso_file="windows11.iso"
         ;;
     6)
