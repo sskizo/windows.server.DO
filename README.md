@@ -27,7 +27,7 @@ Setelah installer selesai, jalankan QEMU untuk memulai Windows Server. Ganti `xx
 
 ```bash
 qemu-system-x86_64 \
--m 4G \
+-m 3G \
 -cpu host \
 -enable-kvm \
 -boot order=d \
