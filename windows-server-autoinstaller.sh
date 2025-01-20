@@ -31,19 +31,19 @@ case $choice in
     1)
         # Windows Server 2016
         img_file="windows2016.img"
-        iso_link="https://go.microsoft.com/fwlink/p/?LinkID=2195174&clcid=0x409&culture=en-us&country=US"
+        iso_link="https://software-static.download.prss.microsoft.com/pr/download/Windows_Server_2016_Datacenter_EVAL_en-us_14393_refresh.ISO"
         iso_file="windows2016.iso"
         ;;
     2)
         # Windows Server 2019
         img_file="windows2019.img"
-        iso_link="https://go.microsoft.com/fwlink/p/?LinkID=2195167&clcid=0x409&culture=en-us&country=US"
+        iso_link="https://software-static.download.prss.microsoft.com/dbazure/988969d5-f34g-4e03-ac9d-1f9786c66749/17763.3650.221105-1748.rs5_release_svc_refresh_SERVER_EVAL_x64FRE_en-us.iso"
         iso_file="windows2019.iso"
         ;;
     3)
         # Windows Server 2022
         img_file="windows2022.img"
-        iso_link="https://go.microsoft.com/fwlink/p/?LinkID=2195280&clcid=0x409&culture=en-us&country=US"
+        iso_link="https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_en-us.iso"
         iso_file="windows2022.iso"
         ;;
     4)
@@ -61,7 +61,7 @@ case $choice in
     6)
         # Windows Server 2025
         img_file="windows2025.img"
-        iso_link="https://ia800104.us.archive.org/31/items/windows-server-2025-datacenter-eval-en-us-240331-1435-virtio/Windows_Server_2025_Datacenter_EVAL_en-us_240331-1435_virtio.iso"
+        iso_link="https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/26100.1742.240906-0331.ge_release_svc_refresh_SERVER_EVAL_x64FRE_en-us.iso"
         iso_file="windows2025.iso"
         ;;
     *)
