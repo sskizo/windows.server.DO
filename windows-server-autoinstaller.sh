@@ -59,10 +59,10 @@ case $choice in
         iso_file="windows11.iso"
         ;;
     6)
-        # Windows 1021h2
-        img_file="windows1021h2.img"
+        # Windows 2025
+        img_file="windows2025.img"
         iso_link="https://ia800104.us.archive.org/31/items/windows-server-2025-datacenter-eval-en-us-240331-1435-virtio/Windows_Server_2025_Datacenter_EVAL_en-us_240331-1435_virtio.iso"
-        iso_file="windows1021h2.iso"
+        iso_file="windows2025.iso"
         ;;
     *)
         echo "Invalid choice. Exiting."
@@ -73,12 +73,12 @@ esac
 echo "Selected version: $img_file"
 
 # Create a raw image file with the chosen name
-qemu-img create -f raw "$img_file" 40G
+qemu-img create -f raw "$img_file" 18G
 
 echo "Image file $img_file created successfully."
 
 # Download Virtio driver ISO
-wget -O virtio-win.iso 'https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.215-1/virtio-win-0.1.215.iso'
+wget -O virtio-win.iso 'https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.266-1/virtio-win-0.1.266.iso'
 
 echo "Virtio driver ISO downloaded successfully."
 
