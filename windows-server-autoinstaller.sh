@@ -49,19 +49,19 @@ case $choice in
     4)
         # Windows 10
         img_file="windows10.img"
-        iso_link="http://138.197.29.186/WIN10.ISO"
+        iso_link="https://ia800603.us.archive.org/17/items/windows-10-21-h-2-enterprise-ltsc/Windows_10_21H2_Enterprise_LTSC.iso"
         iso_file="windows10.iso"
         ;;
     5)
         # Windows 11
         img_file="windows11.img"
-        iso_link="http://138.197.29.186/WIN11.ISO"
+        iso_link="https://ia904603.us.archive.org/25/items/windows.-11.-io-t.-enterprise.-ltsc.-2024.-evaluation-virtio/Windows.11.IoT.Enterprise.LTSC.2024.Evaluation_Virtio.iso"
         iso_file="windows11.iso"
         ;;
     6)
         # Windows 1021h2
         img_file="windows1021h2.img"
-        iso_link="http://138.197.29.186/win1021H2.img"
+        iso_link="https://ia800104.us.archive.org/31/items/windows-server-2025-datacenter-eval-en-us-240331-1435-virtio/Windows_Server_2025_Datacenter_EVAL_en-us_240331-1435_virtio.iso"
         iso_file="windows1021h2.iso"
         ;;
     *)
