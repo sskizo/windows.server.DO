@@ -1,4 +1,12 @@
 
+### Pilihan Windows Pada Installer:
+- Windows Server 2016 Evaluation Edition (windows2016)
+- Windows Server 2019 Evaluation Edition (windows2019)
+- Windows Server 2022 Evaluation Edition (windows2022)
+- Windows 10 Enterprise 2021 Evaluation Edition (windows10)
+- Windows 11 IoT Enterprise LTSC 2024 Evaluation Edition (windows11)
+- Windows Server 2025 Evaluation Edition (windows2025)
+
 ## Langkah-langkah Instalasi
 
 ### 1. Unduh dan Instal File Installer
